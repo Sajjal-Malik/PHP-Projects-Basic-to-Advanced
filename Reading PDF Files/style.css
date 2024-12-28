@@ -1,0 +1,65 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container and Wrapper */
+.container {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.wrapper {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+/* Header Styling */
+.her {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    letter-spacing: 1px;
+}
+
+/* Image Styling */
+.image {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image:hover {
+    transform: scale(1.05);
+}
+
+/* Button Styling */
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styling */
+h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+span {
+    color: red;
+    font-weight: bold;
+}
